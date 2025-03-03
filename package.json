@@ -1,0 +1,13 @@
+{
+  "name": "secret_chats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build":"",
+    "start":""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
