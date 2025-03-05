@@ -83,7 +83,7 @@ const SignUpPage = () => {
                 <input
                   type="email"
                   className={`input rounded-xl input-bordered w-full pl-10`}
-                  placeholder="Apni email id bhariye..."
+                  placeholder="Enter your email"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 />
@@ -101,7 +101,7 @@ const SignUpPage = () => {
                 <input
                   type={showPassword ? "text" : "password"}
                   className={`input rounded-xl input-bordered w-full pl-10`}
-                  placeholder="Password aisa banaye ki khud hi bhul jaaye..."
+                  placeholder="Create new password"
                   value={formData.password}
                   onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                 />
